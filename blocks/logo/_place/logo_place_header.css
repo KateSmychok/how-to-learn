@@ -1,6 +1,17 @@
 .logo_place_header {
-  height: 32px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
+  margin: 32px 0 0 64px;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo_place_header {
+    width: 140px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo_place_header {
+    width: 100px;
+    margin-left: 32px;
+  }
 }

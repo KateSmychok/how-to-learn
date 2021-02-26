@@ -6,3 +6,18 @@
   color: #2f80ed;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .two-columns__brief {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns__brief {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}

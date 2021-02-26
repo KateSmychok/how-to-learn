@@ -1,9 +1,21 @@
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+  width: 45%;
+  height: calc(min(1280px, 100vw) * 0.45);
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__square-pic {
+    top: 48px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__square-pic {
+    top: 32px;
+  }
 }
