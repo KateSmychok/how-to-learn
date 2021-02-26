@@ -1,6 +1,6 @@
 .header__square-pic {
   width: 45%;
-  height: calc(min(1280px, 100vw) * 0.45);
+  height: calc(100vw * 0.45 - 7px);
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
