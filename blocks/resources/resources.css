@@ -1,3 +1,15 @@
 .resources {
-  padding-top: 100px;
+  padding: 100px 0 217px;
+}
+
+@media screen and (max-width: 1220px) {
+  .resources {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .resources {
+    padding: 60px 0;
+  }
 }

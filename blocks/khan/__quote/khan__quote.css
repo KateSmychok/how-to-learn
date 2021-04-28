@@ -1,7 +1,23 @@
 .khan__quote {
-  width: 790px;
-  margin: 50px 0 36px 0;
-  line-height: 34px;
+  width: 60%;
+  margin: 50px 0 36px;
+  line-height: 1.3;
   font-size: 24px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .khan__quote {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .khan__quote {
+    font-size: 16px;
+    width: 100%;
+    max-width: 280px;
+    margin: 40px 0;
+  }
 }

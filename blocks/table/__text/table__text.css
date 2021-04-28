@@ -4,3 +4,15 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .table__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .table__text {
+    font-size: 14px;
+  }
+}

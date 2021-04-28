@@ -2,3 +2,11 @@
   width: 80%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 400px) {
+  .khan__container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}

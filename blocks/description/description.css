@@ -1,15 +1,15 @@
 .description {
-  padding-top: 100px;
+  padding: 100px 0 60px;
 }
 
 @media screen and (max-width: 1023px) {
   .description {
-    padding-top: 75px;
+    padding: 80px 0 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description {
-    padding-top: 50px;
+    padding: 60px 0 40px;
   }
 }

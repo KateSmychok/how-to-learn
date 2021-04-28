@@ -1,0 +1,19 @@
+.khan__buy-link_top {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .khan__buy-link_top {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .khan__buy-link_top {
+    font-size: 16px;
+    min-width: 280px;
+    margin: 0 20px 24px;
+  }
+}
