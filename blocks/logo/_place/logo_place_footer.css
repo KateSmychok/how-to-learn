@@ -1,3 +1,14 @@
-.logo_place_footer {
-  height: 35px;
+@media screen and (max-width: 767px) {
+  .logo_place_footer {
+    width: 140px;
+    margin-bottom: 40px;
+  }
 }
+
+@media screen and (max-width: 400px) {
+  .logo_place_footer {
+    width: 130px;
+  }
+}
+
+

@@ -1,5 +1,6 @@
 .logo_place_header {
-  margin: 32px 0 0 64px;
+  margin: 32px 0 0 80px;
+  z-index: 3;
 }
 
 @media screen and (max-width: 1023px) {
@@ -9,9 +10,15 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
+  .logo_place_header {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .logo_place_header {
     width: 100px;
-    margin-left: 32px;
+    margin-left: 20px;
   }
 }

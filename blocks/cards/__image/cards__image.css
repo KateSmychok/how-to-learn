@@ -4,3 +4,10 @@
   padding: 0 40px 0 40px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 400px) {
+  .cards__image {
+    width: 128px;
+    height: 128px;
+  }
+}

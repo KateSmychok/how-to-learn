@@ -1,10 +1,16 @@
 .kaufman__triangle {
   background-image: url(../../../images/kaufman-triangle.svg);
   background-size: cover;
-  width: 877px;
-  height: 877px;
+  width: calc(min(877px, 60vw));
+  height: calc(min(877px, 60vw));
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: -1;
+  z-index: -2;
+}
+
+@media screen and (max-width: 767px) {
+  .kaufman__triangle {
+    display: none;
+  }
 }

@@ -1,18 +1,26 @@
 .techniques {
   width: 80%;
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1023px) {
   .techniques {
-    padding-top: 75px;
+    padding-top: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .techniques {
-    padding-top: 50px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .techniques {
+    width: 100%;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
   }
 }

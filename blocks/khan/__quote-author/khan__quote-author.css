@@ -4,3 +4,15 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 767px) {
+  .khan__quote-author {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .khan__quote-author {
+    font-size: 18px;
+  }
+}

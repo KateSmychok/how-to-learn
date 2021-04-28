@@ -1,0 +1,21 @@
+.resources__link {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1220px) {
+  .resources__link {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .resources__link:last-child {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .resources__link {
+    padding-bottom: 32px;
+  }
+}

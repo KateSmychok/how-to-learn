@@ -1,14 +1,26 @@
 .two-columns {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .two-columns {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .two-columns {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .two-columns {
+    margin: 0 20px;
   }
 }
 
