@@ -1,0 +1,12 @@
+.khan__buy-link_right {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .khan__buy-link_right {
+    display: none;
+  }
+}

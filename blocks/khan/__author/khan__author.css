@@ -1,6 +1,24 @@
 .khan__author {
   margin: 0;
-  line-height: 42px;
+  line-height: 1.4;
   font-size: 30px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 1023px) {
+  .khan__author {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .khan__author {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .khan__author {
+    font-size: 16px;
+  }
 }

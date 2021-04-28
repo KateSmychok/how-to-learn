@@ -1,7 +1,31 @@
 .cards {
-  width: 920px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 100px 60px;
+  font-size: 0;
+  list-style-type: none;
   padding: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .cards {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}
+

@@ -1,6 +1,6 @@
 .header__square-pic {
   width: 45%;
-  height: calc(100vw * 0.45 - 7px);
+  height: calc(100vw * 0.45);
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
@@ -11,11 +11,23 @@
 @media screen and (max-width: 1023px) {
   .header__square-pic {
     top: 48px;
+    width: 55%;
+    height: calc(100vw * 0.55);
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .header__square-pic {
     top: 32px;
+    width: 65%;
+    height: calc(100vw * 0.65);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__square-pic {
+    top: 20px;
+    width: 75%;
+    height: calc(100vw * 0.75);
   }
 }

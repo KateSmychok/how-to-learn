@@ -1,6 +1,19 @@
 .feynman__subtitle {
-  line-height: 51px;
+  line-height: 1.4;
   font-size: 36px;
   font-weight: normal;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .feynman__subtitle {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
 }

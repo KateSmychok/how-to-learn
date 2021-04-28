@@ -1,3 +1,28 @@
 .video {
-  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  position: relative;
+  top: 20px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1023px) {
+  .video {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .video {
+    width: 100%;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+  }
 }

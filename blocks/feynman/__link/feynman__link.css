@@ -1,8 +1,30 @@
 .feynman__link {
-  line-height: 51px;
+  line-height: 1.4;
   font-size: 36px;
   font-weight: normal;
   position: absolute;
+  bottom: 10%;
   right: 48px;
-  top: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+  .feynman__link {
+    font-size: 24px;
+    right: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__link {
+    font-size: 20px;
+    bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .feynman__link {
+    position: static;
+    text-align: center;
+    font-size: 16px;
+  }
 }
